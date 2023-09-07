@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 
 import {
@@ -17,6 +18,11 @@ import AddItem from "./src/AddItem";
 import ListItem from "./src/ListItem";
 import CustomModal from "./src/CustomModal";
 import { Ionicons } from '@expo/vector-icons'; 
+=======
+import React from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, Button } from 'react-native';
+>>>>>>> e63fc79837636c299ff3b39cdb283fc2acd85023
 
 export default function App() {
  
@@ -58,6 +64,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
 
     
     <CustomModal setIsModalVisible={setIsModalVisible} isModalVisible={isModalVisible} clearList={clearList}/> 
@@ -83,12 +90,19 @@ export default function App() {
           <Ionicons name="trash"  size={35} color="red" />
           </Pressable> 
            
+=======
+      <Text >Hola Coder!</Text>
+      <Text >Aplicacion Inicio</Text>
+      
+      <StatusBar style="auto" />
+>>>>>>> e63fc79837636c299ff3b39cdb283fc2acd85023
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+<<<<<<< HEAD
    
     alignItems: 'center',
     justifyContent: 'center',
@@ -116,4 +130,13 @@ const styles = StyleSheet.create({
   },
   
 
+=======
+    flex: 1,
+    backgroundColor: '#f0f0f0',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+  },
+ 
+>>>>>>> e63fc79837636c299ff3b39cdb283fc2acd85023
 });
